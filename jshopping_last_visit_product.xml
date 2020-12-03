@@ -5,8 +5,8 @@
 	<creationDate>April, 2014</creationDate>
 	<copyright>Copyright © Gartes. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<authorEmail>support@nevigen.com</authorEmail>
-	<authorUrl>http://nevigen.com/</authorUrl>
+	<authorEmail>sad.net79@gmail.com</authorEmail>
+	<authorUrl>https://nobd.ga/</authorUrl>
     <version>4.3</version>
 	<description><![CDATA[Developed & Powered by <a href="https://nobd.ga/" target="_blank">Gartes</a>]]></description>
 	<files>
@@ -14,4 +14,20 @@
 		<filename plugin="jshopping_last_visit_product">jshopping_last_visit_product.php</filename>
 		<filename>README.md</filename>
 	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<fieldset addfieldpath="/libraries/GNZ11/Extensions/Fields" />
+				<field name="__v"
+					type="version"
+					path_xml="/plugins/jshoppingproducts/jshopping_last_visit_product/jshopping_last_visit_product.xml"
+					class="__v"
+					filter="raw" />
+			</fieldset>		
+		</fields>	
+	</config>
+
+	<updateservers>
+		<server type="extension" name="Jshopping - Last Visited Products update">https://raw.githubusercontent.com/Gartes-JoomShopping/plg_jshoppingproducts_jshopping_last_visit_product/main/update.xml</server>
+	</updateservers>
 </extension>
