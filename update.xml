@@ -1,0 +1,17 @@
+<updates>
+	<update>
+		<name><![CDATA[Jshopping - Last Visited Products]]></name>
+		<description><![CDATA[Jshopping - Last Visited Products update]]></description>
+		<type>plugin</type>
+		<folder>jshoppingproducts</folder>
+		<element>jshopping_last_visit_product</element>
+		<version>4.3</version>
+		<client>0</client>
+		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5765-joomla-3-9-6-release.html</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/Gartes-JoomShopping/plg_jshoppingproducts_jshopping_last_visit_product/archive/master.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version=".*"/>
+		<php_minimum>5.3.10</php_minimum>
+	</update>
+</updates>
