@@ -1,0 +1,2 @@
+# plg_jshoppingproducts_jshopping_last_visit_product
+Плагин для поддержки истории просмотренных товаров
