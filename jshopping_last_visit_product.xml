@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="jshoppingproducts" method="upgrade">
+	<name>Jshopping - Last Visited Products</name>
+	<author>Gartes</author>
+	<creationDate>April, 2014</creationDate>
+	<copyright>Copyright © Gartes. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@nevigen.com</authorEmail>
+	<authorUrl>http://nevigen.com/</authorUrl>
+    <version>4.3</version>
+	<description><![CDATA[Developed & Powered by <a href="https://nobd.ga/" target="_blank">Gartes</a>]]></description>
+	<files>
+		<filename>index.html</filename>
+		<filename plugin="jshopping_last_visit_product">jshopping_last_visit_product.php</filename>
+		<filename>README.md</filename>
+	</files>
+</extension>
